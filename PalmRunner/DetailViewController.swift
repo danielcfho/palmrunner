@@ -7,11 +7,18 @@
 //
 
 import UIKit
+import MapKit
 
 class DetailViewController: UIViewController {
 
     @IBOutlet weak var detailDescriptionLabel: UILabel!
+    let run:Run = Run()
 
+    @IBOutlet weak var mapview: MKMapView!
+    @IBOutlet weak var distanceLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var paceLabel: UILabel!
 
     var detailItem: AnyObject? {
         didSet {
@@ -19,14 +26,14 @@ class DetailViewController: UIViewController {
             self.configureView()
         }
     }
+    
+    //MARK: -  Managing the detail item
+    func setRun(){
+        self.configureView()
+    }
 
     func configureView() {
         // Update the user interface for the detail item.
-        if let detail: AnyObject = self.detailItem {
-            if let label = self.detailDescriptionLabel {
-                label.text = detail.valueForKey("timeStamp")!.description
-            }
-        }
     }
 
     override func viewDidLoad() {

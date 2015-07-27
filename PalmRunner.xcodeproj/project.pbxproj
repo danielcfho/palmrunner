@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		D428737D1AFCDE8C008062C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D428737C1AFCDE8C008062C1 /* AppDelegate.swift */; };
 		D42873801AFCDE8C008062C1 /* PalmRunner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D428737E1AFCDE8C008062C1 /* PalmRunner.xcdatamodeld */; };
-		D42873821AFCDE8C008062C1 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42873811AFCDE8C008062C1 /* MasterViewController.swift */; };
 		D42873841AFCDE8C008062C1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42873831AFCDE8C008062C1 /* DetailViewController.swift */; };
 		D42873871AFCDE8C008062C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42873851AFCDE8C008062C1 /* Main.storyboard */; };
 		D42873891AFCDE8C008062C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42873881AFCDE8C008062C1 /* Images.xcassets */; };
 		D428738C1AFCDE8C008062C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D428738A1AFCDE8C008062C1 /* LaunchScreen.xib */; };
 		D42873981AFCDE8C008062C1 /* PalmRunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42873971AFCDE8C008062C1 /* PalmRunnerTests.swift */; };
+		D42873A21AFCE47A008062C1 /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42873A11AFCE47A008062C1 /* Run.swift */; };
+		D42873A41AFCE47B008062C1 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42873A31AFCE47B008062C1 /* Location.swift */; };
+		D42873A61AFCE4EC008062C1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42873A51AFCE4EC008062C1 /* MapKit.framework */; };
+		D42873A81AFE0955008062C1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42873A71AFE0955008062C1 /* HomeViewController.swift */; };
+		D42873AA1AFE0D5B008062C1 /* NewRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42873A91AFE0D5B008062C1 /* NewRunViewController.swift */; };
+		D42873AC1AFF0670008062C1 /* MathController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42873AB1AFF0670008062C1 /* MathController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +37,6 @@
 		D428737B1AFCDE8C008062C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D428737C1AFCDE8C008062C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D428737F1AFCDE8C008062C1 /* PalmRunner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PalmRunner.xcdatamodel; sourceTree = "<group>"; };
-		D42873811AFCDE8C008062C1 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		D42873831AFCDE8C008062C1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D42873861AFCDE8C008062C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D42873881AFCDE8C008062C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -40,6 +44,12 @@
 		D42873911AFCDE8C008062C1 /* PalmRunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PalmRunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42873961AFCDE8C008062C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D42873971AFCDE8C008062C1 /* PalmRunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalmRunnerTests.swift; sourceTree = "<group>"; };
+		D42873A11AFCE47A008062C1 /* Run.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		D42873A31AFCE47B008062C1 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		D42873A51AFCE4EC008062C1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D42873A71AFE0955008062C1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D42873A91AFE0D5B008062C1 /* NewRunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRunViewController.swift; sourceTree = "<group>"; };
+		D42873AB1AFF0670008062C1 /* MathController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42873A61AFCE4EC008062C1 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,7 @@
 		D428736E1AFCDE8C008062C1 = {
 			isa = PBXGroup;
 			children = (
+				D42873A51AFCE4EC008062C1 /* MapKit.framework */,
 				D42873791AFCDE8C008062C1 /* PalmRunner */,
 				D42873941AFCDE8C008062C1 /* PalmRunnerTests */,
 				D42873781AFCDE8C008062C1 /* Products */,
@@ -82,7 +94,11 @@
 			isa = PBXGroup;
 			children = (
 				D428737C1AFCDE8C008062C1 /* AppDelegate.swift */,
-				D42873811AFCDE8C008062C1 /* MasterViewController.swift */,
+				D42873A91AFE0D5B008062C1 /* NewRunViewController.swift */,
+				D42873AB1AFF0670008062C1 /* MathController.swift */,
+				D42873A71AFE0955008062C1 /* HomeViewController.swift */,
+				D42873A31AFCE47B008062C1 /* Location.swift */,
+				D42873A11AFCE47A008062C1 /* Run.swift */,
 				D42873831AFCDE8C008062C1 /* DetailViewController.swift */,
 				D42873851AFCDE8C008062C1 /* Main.storyboard */,
 				D42873881AFCDE8C008062C1 /* Images.xcassets */,
@@ -162,11 +178,17 @@
 		D428736F1AFCDE8C008062C1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "rm-3d.com";
 				TargetAttributes = {
 					D42873761AFCDE8C008062C1 = {
 						CreatedOnToolsVersion = 6.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					D42873901AFCDE8C008062C1 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -218,10 +240,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42873AA1AFE0D5B008062C1 /* NewRunViewController.swift in Sources */,
 				D428737D1AFCDE8C008062C1 /* AppDelegate.swift in Sources */,
 				D42873801AFCDE8C008062C1 /* PalmRunner.xcdatamodeld in Sources */,
-				D42873821AFCDE8C008062C1 /* MasterViewController.swift in Sources */,
+				D42873A21AFCE47A008062C1 /* Run.swift in Sources */,
+				D42873A41AFCE47B008062C1 /* Location.swift in Sources */,
+				D42873AC1AFF0670008062C1 /* MathController.swift in Sources */,
 				D42873841AFCDE8C008062C1 /* DetailViewController.swift in Sources */,
+				D42873A81AFE0955008062C1 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +443,7 @@
 				D428739D1AFCDE8C008062C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D428739E1AFCDE8C008062C1 /* Build configuration list for PBXNativeTarget "PalmRunnerTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +452,7 @@
 				D42873A01AFCDE8C008062C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
